@@ -15,3 +15,30 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+.header{
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+.header .logo{
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 800;
+  color: orange;
+}
+.header .menu{
+  display: flex;
+  margin-right: 40px;
+
+}
+.header .menu .menu-item{
+  margin-left: 20px;
+  font-size: 15px;
+  color: orange;
+  font-weight: lighter;
+}
+
